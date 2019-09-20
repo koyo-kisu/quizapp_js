@@ -89,7 +89,6 @@
             } else {
                 scoerLabel.textContent = `残念...${quizSet.length} 問中 ${score} 問正解です！`
             }
-            // scoerLabel.textContent = `${quizSet.length} 問中 ${score} 問正解です！`;
             result.classList.remove('hidden');          //最後の問題ならhiddenクラスを取り除く
         } else {
             currentNum++;
