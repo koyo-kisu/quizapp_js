@@ -1,0 +1,25 @@
+{
+  "name": "quiz_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel js --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koyo-kisu/quizapp_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koyo-kisu/quizapp_js/issues"
+  },
+  "homepage": "https://github.com/koyo-kisu/quizapp_js#readme",
+  "dependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0"
+  }
+}
