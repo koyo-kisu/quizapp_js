@@ -85,9 +85,9 @@
             if (score >= 3) {
                 scoerLabel.textContent = `おめでとうございます！${quizSet.length} 問中 ${score} 問正解です！`
             }else if (score == 2){
-                scoerLabel.textContent = `惜しいです！${quizSet.length} 問中 ${score} 問正解です！`
+                scoerLabel.textContent = `もうちょっと！${quizSet.length} 問中 ${score} 問正解です！`
             } else {
-                scoerLabel.textContent = `残念...${quizSet.length} 問中 ${score} 問正解です！`
+                scoerLabel.textContent = `残念...。${quizSet.length} 問中 ${score} 問正解です！`
             }
             result.classList.remove('hidden');          //最後の問題ならhiddenクラスを取り除く
         } else {

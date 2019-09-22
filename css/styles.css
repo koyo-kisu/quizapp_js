@@ -1,5 +1,4 @@
 body {
-    background: gainsboro;
     margin-top: 0;
     font-family: Verdana, sans-serif;
 }
@@ -74,7 +73,7 @@ body {
 
 #result {
     position: absolute;
-    width: 350px;
+    width: 550px;
     background: white;
     padding: 40px;
     border: 1px solid #FAFAFA;
@@ -107,4 +106,8 @@ body {
     cursor: pointer;
     text-decoration: none;
     color: black;
+}
+
+.home_btn {
+    margin-top: 20px;
 }

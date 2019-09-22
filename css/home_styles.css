@@ -1,0 +1,115 @@
+body {
+    background: white;
+}
+
+.home_title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.question_title {
+    text-align: center;
+}
+
+#question_contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 1000px;
+    padding: 100px;
+    float: center;
+}
+
+.first_question_item {
+    display: inline-block;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    background: #81F781;
+    border-radius: 50%;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.question_item1 {
+    border: 1px solid black;
+    margin-bottom: 25px;
+    padding: 30px;
+    width: 150px;
+    height: 250px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 4px;
+}
+
+.question_first_text > p {
+    word-wrap: break-word;
+}
+
+.second_question_item {
+    display: inline-block;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    background: #A9E2F3;
+    border-radius: 50%;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.question_item2 {
+    border: 1px solid black;
+    margin-bottom: 25px;
+    padding: 30px;
+    width: 150px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    height: 250px;
+    border-radius: 4px;
+}
+
+.question_second_text > p {
+    word-wrap: break-word;
+}
+
+.third_question_item {
+    display: inline-block;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    background: #F7819F;
+    border-radius: 50%;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.question_item3 {
+    border: 1px solid black;
+    margin-bottom: 25px;
+    padding: 30px;
+    width: 150px;
+    float: left;
+    margin-right: 40px;
+    height: 250px;
+    border-radius: 4px;
+}
+
+.question_third_text > p {
+    word-wrap: break-word;
+}
