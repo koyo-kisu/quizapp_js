@@ -68,7 +68,7 @@
         })
 
         if (currentNum === quizSet.length - 1) {        //全て回答し終えたらtextを書き換える
-            next_btn.textContent = "Show Score";
+            next_btn.textContent = "スコアを確認する";
         }
     }
     setQuiz();
